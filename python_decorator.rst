@@ -6,7 +6,7 @@ Python Decorator
 
 **Python's functions are objects**
 
-`LINK http://stackoverflow.com/questions/739654/how-to-make-a-chain-of-function-decorators/1594484#1594484`_
+`How To Make A Chain Of Function Decorators <http://stackoverflow.com/questions/739654/how-to-make-a-chain-of-function-decorators/1594484#1594484>`_
 
 To understand decorators, you must first understand that functions
 are objects in Python. This has important consequences. Let's see
