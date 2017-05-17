@@ -10,7 +10,7 @@ To understand decorators, you must first understand that functions
 are objects in Python. This has important consequences. Let's see
 why with a simple example:
 
-``
+```
 def shout(word='yes'):
     return word.capitalize() + '!'
 
@@ -40,14 +40,14 @@ except NameError as e:
 
 print(scream())
 # outputs: 'Yes!'
-``
+```
 
 Keep this in mind. We'll circle back to it shortly.
 
 Another interesting property of Python functions is they can
 be definded inside another function!
 
-``
+```
 def talk():
     
     # You can define a function on the fly in "talk"...
@@ -71,5 +71,5 @@ except NameError as e:
     print(e)
     # outputs: "name 'whisper' is not defined"
     # Python's functions are objects
-``
+```
 
