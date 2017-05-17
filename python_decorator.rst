@@ -40,13 +40,15 @@ why with a simple example:
 
     print(scream())
     # outputs: 'Yes!'
+.. code:: python
+
 
 Keep this in mind. We'll circle back to it shortly.
 
 Another interesting property of Python functions is they can
 be definded inside another function!
 
-.. code::python
+.. code:: python
     def talk():
         # You can define a function on the fly in "talk"...
         def whisper(word='yes'):
@@ -69,4 +71,5 @@ be definded inside another function!
         print(e)
     # outputs: "name 'whisper' is not defined"
     # Python's functions are objects
+.. code:: python
 
