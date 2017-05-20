@@ -4,7 +4,7 @@
 
 New in version 2.4
 
-Source code: `Lib/collections.py <https://github.com/python/cpython/blob/2.7/Lib/collections.py>_` and `Lib/_abcoll.py <https://github.com/python/cpython/blob/2.7/Lib/_abcoll.py>_`
+Source code: `Lib/collections.py <https://github.com/python/cpython/blob/2.7/Lib/collections.py>`_ and `Lib/_abcoll.py <https://github.com/python/cpython/blob/2.7/Lib/_abcoll.py>`_
 
 This module implements specialized container datatypes providing alternatives
 to Python's general purpose built-in containers, dist, list, set, and tuple.
