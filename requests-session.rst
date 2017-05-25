@@ -26,7 +26,7 @@ Let's persist some cookies across requests:
 Session can also be used to provide default data to the request methods. This
 is done by providing data to the properties on a Session object:
 
- .. code:: python
+.. code:: python
     
     s = requests.Session()
     s.auth = ('user': 'pass')
