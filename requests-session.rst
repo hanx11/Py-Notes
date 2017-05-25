@@ -23,8 +23,8 @@ Let's persist some cookies across requests:
     print(r.text)
     # '{"cookies": {"sessioncookie": "123456789"}}'
 
- Session can also be used to provide default data to the request methods. This
- is done by providing data to the properties on a Session object:
+Session can also be used to provide default data to the request methods. This
+is done by providing data to the properties on a Session object:
 
  .. code:: python
     
