@@ -1,6 +1,6 @@
-==============
-Advanced Usage
-==============
+================
+Requests Session
+================
 
 Session Objects
 ---------------
