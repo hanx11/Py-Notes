@@ -82,21 +82,20 @@ To show the individual process IDs involved, here is an expanded example:
 multiprocessing supports two types of communication channel between processes:
 
 **Queues**
+    The Queue class is a near clone of Queue.Queue. For example:
 
-The Queue class is a near clone of Queue.Queue. For example:
+    .. code:: python
 
-.. code:: python
+        from multiprocessing import Process, Queue
 
-    from multiprocessing import Process, Queue
+        def f(q):
+            q.put([42, None, 'hello'])
 
-    def f(q):
-        q.put([42, None, 'hello'])
-
-    if __name__ == '__main__':
-        q = Queue()
-        p = Process(target=f, args=(q,))
-        p.start()
-        print q.get()
-        p.join()
+        if __name__ == '__main__':
+            q = Queue()
+            p = Process(target=f, args=(q,))
+            p.start()
+            print q.get()
+            p.join()
 
 
