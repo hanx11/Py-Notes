@@ -83,21 +83,20 @@ multiprocessing supports two types of communication channel between processes:
 
 **Queues**
 
-    The Queue class is a near clone of Queue.Queue. For example:
+The Queue class is a near clone of Queue.Queue. For example:
 
-    .. code:: python
-    
-        from multiprocessing import Process, Queue
+.. code:: python
 
-        def f(q):
-            q.put([42, None, 'hello'])
+    from multiprocessing import Process, Queue
 
-        if __name__ == '__main__':
-            q = Queue()
-            p = Process(target=f, args=(q,))
-            p.start()
-            print q.get()
-            p.join()
+    def f(q):
+        q.put([42, None, 'hello'])
 
+    if __name__ == '__main__':
+        q = Queue()
+        p = Process(target=f, args=(q,))
+        p.start()
+        print q.get()
+        p.join()
 
 
