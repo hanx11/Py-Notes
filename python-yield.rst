@@ -9,7 +9,6 @@ Iterables
 
 When you create a list, you can read its items one by one. Reading its items
 one by one is called iteration:
-
 .. code:: python
 
     >>>mylist = [1, 2, 3]
