@@ -19,8 +19,8 @@ one by one is called iteration:
     2
     3
 
- *mylist* is iterable. When you use a list comprehension, you create a list,
- and so an iterable:
+*mylist* is iterable. When you use a list comprehension, you create a list, and 
+so an iterable:
 
  .. code:: python
 
