@@ -49,4 +49,4 @@ Feature Highlights:
   - Create extensible applications and frameworks that automatically discover extensions, using 
     simple “entry points” declared in a project’s setup script.
 
-**`Learn More <http://setuptools.readthedocs.io/en/latest/setuptools.html#installing-setuptools>`_**
+`**Learn More** <http://setuptools.readthedocs.io/en/latest/setuptools.html#installing-setuptools>`_
